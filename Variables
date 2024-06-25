@@ -1,0 +1,5 @@
+airflow variables set s3_bucket peter-project-auto
+
+airflow variables set log_data_prefix log-data
+
+airflow variables set song_data_prefix song_data
