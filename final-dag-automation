@@ -41,7 +41,7 @@ def final_project():
         table='staging_events',
         s3_bucket='peter-project-auto',
         s3_key='log-data',
-        file_format="JSON 's3://peter-project-auto/log_json_path.json'",
+        file_format='s3://peter-project-auto/log_json_path.json', #removed the "JSON" string
         region='us-east-1'
     )
 
