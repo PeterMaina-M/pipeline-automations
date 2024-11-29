@@ -1,4 +1,4 @@
-airflow variables set s3_bucket peter-project-auto
+airflow variables set s3_bucket peter-automation-s3
 
 airflow variables set log_data_prefix log_data
 
