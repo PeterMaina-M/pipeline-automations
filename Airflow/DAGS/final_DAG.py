@@ -41,7 +41,7 @@ def final_project1():
         table='staging_events',
         s3_bucket='peter-automation-s3',
         s3_key='log_data',
-        file_format='auto',
+        file_format='s3://udacity-dend/log_json_path.json',
         region='us-east-1'
     )
 
